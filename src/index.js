@@ -10,14 +10,5 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v10"
 });
 
-// new mapboxgl.Marker().setLngLat([-87.641, 41.895]).addTo(map);
-
-// const markerDomEl = document.createElement(); // Create a new, detached DIV
-// markerDomEl.style.width = "32px";
-// markerDomEl.style.height = "39px";
-// markerDomEl.style.backgroundImage = "url(http://i.imgur.com/WbMOfMl.png)";
-
 const marker = markerMaker('hotel', [-87.641, 41.895])
 marker.addTo(map)
-
-// new mapboxgl.Marker().setLngLat([-74.009, 40.705]).addTo(map)

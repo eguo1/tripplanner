@@ -8,7 +8,72 @@ body {
     background-color: #C1B5AD;
   }
 
+button {
+    height: 30px;
+    width: 75px;
+    background-color: #82b1ff;
+    border-width: 0px;
+    border-radius: 6px;
+}
+
+select {
+  background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+  height: 29px;
+  overflow: hidden;
+  width: 240px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+#navbar {
+    height: 50px;
+    background-color: grey;
+    z-index: 100;
+    color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
 #map {
-    height: 100vh;
+    height: calc(100vh - 50px);
     width: 100vw;
+    position: relative;
+}
+
+#activities {
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    padding: 15px 40px;
+}
+
+#itinerary {
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    padding: 15px 40px;
+}
+
+#activities h1 {
+  margin-top: 40px
+}
+
+#itinerary h1 {
+  margin-top: 25px
+}
+
+#activities ul, #itinerary ul {
+  display: inline-block;
+  margin-right: 20px;
 }
