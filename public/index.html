@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tripplanner</title>
+    <title>Trip Planner</title>
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.45.0-beta.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="bundle.js" defer></script>
 </head>
 <body>
-    <div id='navbar'><h1>Navigation Bar</h1></div>
+    <div id='navbar'><h1>Trip Planner</h1></div>
     <div id="map">
-        <div id='activities'>
-            <h1>Hotels</h1>
-            <select name="hotel-selector">
-                <option value="value1">Value 1</option> 
-                <option value="value2">Value 2</option>
-                <option value="value3">Value 3</option>
-              </select><button>Submit</button>
-            <h1>Restaurants</h1>
-            <select name="restaurant-selector">
+        <div id='interface-wrapper'>
+            <div id='activities'>
+                <h1>Hotels</h1>
+                <select name="hotel-selector">
                     <option value="value1">Value 1</option> 
                     <option value="value2">Value 2</option>
                     <option value="value3">Value 3</option>
-            </select><button>Submit</button>
-            <h1>Things to Do</h1>
-            <select name="activity-selector">
-                    <option value="value1">Value 1</option> 
-                    <option value="value2">Value 2</option>
-                    <option value="value3">Value 3</option>
-            </select><button>Submit</button>
-        </div>
-        <div id='itinerary'>
-            <div><h1>Itinerary</h1></div>
-            <h1>My Hotel</h1>
-                <ul>
-                    <li>Placeholder</li>
-                </ul><button>Submit</button>
-            <h1>My Restaurants</h1>
-                <ul>
-                    <li>Placeholder</li>
-                </ul><button>Submit</button>
-            <h1>My Activities</h1>
-                <ul>
-                    <li>Placeholder</li>
-                </ul><button>Submit</button>
+                </select><button>Submit</button>
+                <h1>Restaurants</h1>
+                <select name="restaurant-selector">
+                        <option value="value1">Value 1</option> 
+                        <option value="value2">Value 2</option>
+                        <option value="value3">Value 3</option>
+                </select><button>Submit</button>
+                <h1>Things to Do</h1>
+                <select name="activity-selector">
+                        <option value="value1">Value 1</option> 
+                        <option value="value2">Value 2</option>
+                        <option value="value3">Value 3</option>
+                </select><button>Submit</button>
+            </div>
+            <div id='itinerary'>
+                <div><h1>Itinerary</h1></div>
+                <h1>My Hotel</h1>
+                    <ul>
+                        <li>Placeholder</li>
+                    </ul><button>Submit</button>
+                <h1>My Restaurants</h1>
+                    <ul>
+                        <li>Placeholder</li>
+                    </ul><button>Submit</button>
+                <h1>My Activities</h1>
+                    <ul>
+                        <li>Placeholder</li>
+                    </ul><button>Submit</button>
+            </div>
         </div>
     </div>
 </body>
